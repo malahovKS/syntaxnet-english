@@ -1,7 +1,7 @@
 # Use Googles Syntaxnet pretrained with English model
 
 ## How to use:
-    echo "Hello , how are you ?" | docker run -i --rm malakhov/syntaxnet-english > out.txt
+    echo "Hello , how are you ?" | docker run -i --rm malakhovks/syntaxnet-english > out.txt
     cat out.txt
 
 Result:

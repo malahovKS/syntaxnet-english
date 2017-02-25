@@ -1,7 +1,7 @@
 FROM saturnism/syntaxnet
-ADD http://download.tensorflow.org/models/parsey_universal/Swedish.zip /models/
-RUN unzip /models/Swedish.zip
-ENV MODEL_DIR=/syntaxnet/models/syntaxnet/Swedish/
+ADD http://download.tensorflow.org/models/parsey_universal/English.zip /models/
+RUN unzip /models/English.zip
+ENV MODEL_DIR=/syntaxnet/models/syntaxnet/English/
 
 
 

@@ -1,7 +1,7 @@
-# Use Googles Syntaxnet pretrained with Swedish model
+# Use Googles Syntaxnet pretrained with English model
 
 ## How to use:
-    echo "Jag vill byta abonnemang till mer data imorgon" | docker run -i --rm irony/syntaxnet-swedish > out.txt
+    echo "Hello , how are you ?" | docker run -i --rm malakhov/syntaxnet-english > out.txt
     cat out.txt
 
 Result:
@@ -21,4 +21,4 @@ Result:
             +-- med VBN amod
 
 ## To switch language
-Just look at the dockerfile and replace Swedish to any of the supported languages. 
+Just look at the dockerfile and replace English to any of the supported languages. 
